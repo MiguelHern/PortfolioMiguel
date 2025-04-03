@@ -1,0 +1,15 @@
+{
+  "technologies": "Tecnologías",
+  "frontend": {
+    "title": "Frontend",
+    "description": "Desarrollo web"
+  },
+  "backend": {
+    "title": "Backend",
+    "description": "Desarrollo web"
+  },
+  "tools": {
+    "title": "Herramientas",
+    "description": "Herramientas de desarrollo"
+  }
+}

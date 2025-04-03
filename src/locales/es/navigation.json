@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "projects": "Proyectos",
+    "education": "Educación",
+    "technologies": "Tecnologías",
+    "contact": "Contacto",
+    "about": "Sobre mí"
+  },
+  "language": {
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "dark": "Oscuro",
+    "light": "Claro"
+  }
+}

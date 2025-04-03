@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "projects": "Projects",
+    "education": "Education",
+    "technologies": "Technologies",
+    "contact": "Contact",
+    "about": "About me"
+  },
+  "language": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "dark": "Dark",
+    "light": "Light"
+  }
+}

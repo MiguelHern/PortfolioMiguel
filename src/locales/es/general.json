@@ -1,0 +1,26 @@
+{
+  "greeting": "¡Hola!",
+  "welcome": "Bienvenido a mi portafolio",
+  "name": "Miguel Hernández",
+  "title": "Desarrollador Full Stack",
+  "intro": "Soy un desarrollador apasionado especializado en crear experiencias web modernas y eficientes.",
+  "contact": {
+    "title": "Contacto",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "location": "Ubicación",
+    "send": "Enviar mensaje",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "buttons": {
+    "readMore": "Leer más",
+    "viewProject": "Ver proyecto",
+    "viewAll": "Ver todos",
+    "download": "Descargar CV"
+  }
+}

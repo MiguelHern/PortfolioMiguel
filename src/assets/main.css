@@ -1,0 +1,138 @@
+@import './base.css';
+
+@layer base {
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: bold;
+  }
+  h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: 1rem;
+    color: var(--color-title);
+    font-weight: 600;
+  }
+  h3 {
+    font-size: var(--text-xl);
+    color: var(--color-title);
+    font-weight: 500;
+  }
+  h4 {
+    font-size: var(--font-h4);
+    color: var(--color-title);
+  }
+  body {
+    font-size: var(--font-base);
+    color: var(--color-text);
+  }
+  p {
+    color: var(--color-subtitle);
+  }
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  a:hover {
+    color: var(--color-secondary);
+  }
+  .sm-text {
+    font-size: var(--font-sm);
+  }
+  .text-title {
+    color: var(--color-title);
+  }
+  .text-subtitle {
+    color: var(--color-subtitle);
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+  .bg-card-bg {
+    background-color: var(--color-card-bg);
+  }
+  .bg-inner-bg {
+    background-color: var(--color-inner-bg);
+  }
+  .border-border {
+    border-color: var(--color-border);
+  }
+  .ring-border {
+    --tw-ring-color: var(--color-border);
+  }
+  .hover\:bg-card-bg-hover:hover {
+    background-color: var(--color-card-bg-hover);
+  }
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-card-bg);
+    border-radius: var(--rounded-lg);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+  }
+}
+
+section {
+  padding: 2rem 0;
+}
+
+.box {
+  cursor: default;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.box:after,
+.box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--color-primary);
+  transition: all 0.5s;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+.box:hover:after,
+.box:hover:before {
+  opacity: 1;
+}
+
+.box:after {
+  animation: clippath 3s linear -1.5s infinite;
+}
+
+.box:before {
+  animation: clippath 3s linear infinite;
+}
+
+@keyframes clippath {
+  0%,
+  100% {
+    clip-path: inset(0 0 98% 0%);
+  }
+  25% {
+    clip-path: inset(0 98% 0 0);
+  }
+  50% {
+    clip-path: inset(98% 0 0 0);
+  }
+  75% {
+    clip-path: inset(0 0 0 98%);
+  }
+}

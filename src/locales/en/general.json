@@ -1,0 +1,26 @@
+{
+  "greeting": "Hello!",
+  "welcome": "Welcome to my portfolio",
+  "name": "Miguel Hernández",
+  "title": "Full Stack Developer",
+  "intro": "I'm a passionate developer specialized in creating modern and efficient web experiences.",
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "send": "Send message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  },
+  "buttons": {
+    "readMore": "Read more",
+    "viewProject": "View project",
+    "viewAll": "View all",
+    "download": "Download CV"
+  }
+}
